@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button50"
+    tools:context="com.example.codetribe.lotto.Main3Activity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:text="PLAYLOTTO"
+        android:textColor="#000"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="25dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_alignBottom="@+id/editText"
+        android:layout_toRightOf="@+id/editText"
+        android:ems="10"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_toRightOf="@+id/editText2"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_toRightOf="@+id/editText3"
+        android:layout_alignBottom="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_toRightOf="@+id/editText4"
+        android:layout_alignBottom="@+id/editText4"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_toRightOf="@+id/editText5"
+        android:layout_alignBottom="@+id/editText5"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold|italic"
+        android:text="PLAY"
+        android:background="@drawable/admin_toyota_button_bg"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="67dp"
+        android:visibility="invisible"
+        android:text="Thanks Check Results"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
